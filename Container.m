@@ -4,7 +4,6 @@ classdef Container
         params struct
         opts
     end
-    % TODO: incorrect indexing c.geom{1}{:} - one output
     
     methods
         function obj = Container(data, varargin)
